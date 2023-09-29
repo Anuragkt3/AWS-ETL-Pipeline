@@ -10,8 +10,8 @@ The Components:
 
 The ETL Process
 
-Step 1: Extraction
-
+**Step 1: Extraction
+**
 DynamoDB Streams: Configure DynamoDB to stream data changes. This stream is our source of raw data.
 
 Step 2: Transformation
