@@ -10,21 +10,18 @@ The Components:
 
 The ETL Process
 
-**Step 1: Extraction
-**
+Step 1: Extraction
 DynamoDB Streams: Configure DynamoDB to stream data changes. This stream is our source of raw data.
 
 Step 2: Transformation
-
 Lambda Functions: Create Lambda functions to process the raw data. These functions can perform tasks such as data cleansing, aggregation, or enrichment. 
- Kinesis Streams: If real-time processing is essential, set up a Kinesis stream to process data as it flows in.
+Kinesis Streams: If real-time processing is essential, set up a Kinesis stream to process data as it flows in.
 
 Source: Direct Put
 
 Destination: Redshift
 
 Step 3: Loading
-
 S3 Bucket as Staging Area: Processed data from Lambda functions or Kinesis streams is saved to an S3 bucket. This acts as an intermediate storage before loading into Redshift.
 
 Step 4: Data Warehousing
