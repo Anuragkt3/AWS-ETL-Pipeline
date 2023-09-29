@@ -1,4 +1,3 @@
-# AWS-ETL-Pipeline
 𝐄𝐓𝐋 𝐟𝐫𝐨𝐦 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞𝐬(𝐃𝐲𝐧𝐚𝐦𝐨𝐃𝐁) 𝐭𝐨 𝐑𝐞𝐝𝐬𝐡𝐢𝐟𝐭(𝐖𝐚𝐫𝐞𝐡𝐨𝐮𝐬𝐢𝐧𝐠) 𝐮𝐬𝐢𝐧𝐠 𝐀𝐖𝐒 𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬.
  In the fast-paced world of data-driven decision-making, a robust ETL (Extract, Transform, Load) process is paramount. AWS offers a powerful suite of services that seamlessly integrate to create a highly efficient and scalable ETL pipeline. In this article, we’ll explore how DynamoDB, AWS Lambda, AWS Kinesis, S3 Bucket, and Redshift Cluster come together to form a cohesive data processing powerhouse.
 The Components:
